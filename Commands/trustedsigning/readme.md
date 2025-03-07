@@ -22,7 +22,7 @@ Manage trusted signing account
 : List trusted signing accounts within a subscription.
 
 - [show](/Commands/trustedsigning/_show.md)
-: Get a trusted Signing Account.
+: Get a trusted signing account.
 
 - [update](/Commands/trustedsigning/_update.md)
 : Update a trusted signing account.

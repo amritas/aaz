@@ -15,3 +15,15 @@ List trusted signing accounts within a subscription.
     ```bash
         trustedsigning list -g MyResourceGroup
     ```
+
+### [2024-09-30-preview](/Resources/mgmt-plane/L3N1YnNjcmlwdGlvbnMve30vcHJvdmlkZXJzL21pY3Jvc29mdC5jb2Rlc2lnbmluZy9jb2Rlc2lnbmluZ2FjY291bnRz/2024-09-30-preview.xml) **Preview**
+
+<!-- mgmt-plane /subscriptions/{}/providers/microsoft.codesigning/codesigningaccounts 2024-09-30-preview -->
+<!-- mgmt-plane /subscriptions/{}/resourcegroups/{}/providers/microsoft.codesigning/codesigningaccounts 2024-09-30-preview -->
+
+#### examples
+
+- Lists accounts under a resource group
+    ```bash
+        trustedsigning list -g MyResourceGroup
+    ```

@@ -14,3 +14,14 @@ List certificate profiles under a trusted signing account.
     ```bash
         trustedsigning certificate-profile list -g MyResourceGroup --account-name MyAccount
     ```
+
+### [2024-09-30-preview](/Resources/mgmt-plane/L3N1YnNjcmlwdGlvbnMve30vcmVzb3VyY2Vncm91cHMve30vcHJvdmlkZXJzL21pY3Jvc29mdC5jb2Rlc2lnbmluZy9jb2Rlc2lnbmluZ2FjY291bnRzL3t9L2NlcnRpZmljYXRlcHJvZmlsZXM=/2024-09-30-preview.xml) **Preview**
+
+<!-- mgmt-plane /subscriptions/{}/resourcegroups/{}/providers/microsoft.codesigning/codesigningaccounts/{}/certificateprofiles 2024-09-30-preview -->
+
+#### examples
+
+- Lists certificate profile under a trusted signing account
+    ```bash
+        trustedsigning certificate-profile list -g MyResourceGroup --account-name MyAccount
+    ```

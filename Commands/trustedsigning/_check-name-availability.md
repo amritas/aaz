@@ -14,3 +14,14 @@ Checks that the trusted signing account name is valid and is not already in use.
     ```bash
         trustedsigning check-name-availability --name MyAccount --type Microsoft.CodeSigning/codeSigningAccounts
     ```
+
+### [2024-09-30-preview](/Resources/mgmt-plane/L3N1YnNjcmlwdGlvbnMve30vcHJvdmlkZXJzL21pY3Jvc29mdC5jb2Rlc2lnbmluZy9jaGVja25hbWVhdmFpbGFiaWxpdHk=/2024-09-30-preview.xml) **Preview**
+
+<!-- mgmt-plane /subscriptions/{}/providers/microsoft.codesigning/checknameavailability 2024-09-30-preview -->
+
+#### examples
+
+- Check if account name is available
+    ```bash
+        trustedsigning check-name-availability --name MyAccount --type Microsoft.CodeSigning/codeSigningAccounts
+    ```

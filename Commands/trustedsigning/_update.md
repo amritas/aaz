@@ -1,6 +1,6 @@
 # [Command] _trustedsigning update_
 
-Update a trusted signing account.
+Update a trusted Signing Account.
 
 ## Versions
 
@@ -15,6 +15,21 @@ Update a trusted signing account.
         trustedsigning update -n MyAccount -g MyResourceGroup --sku Premium
     ```
 
+- Update tags
+    ```bash
+        trustedsigning update -n MyAccount -g MyResourceGroup --tags "key1=value1 key2=value2"
+    ```
+
+### [2024-09-30-preview](/Resources/mgmt-plane/L3N1YnNjcmlwdGlvbnMve30vcmVzb3VyY2Vncm91cHMve30vcHJvdmlkZXJzL21pY3Jvc29mdC5jb2Rlc2lnbmluZy9jb2Rlc2lnbmluZ2FjY291bnRzL3t9/2024-09-30-preview.xml) **Stable**
+
+<!-- mgmt-plane /subscriptions/{}/resourcegroups/{}/providers/microsoft.codesigning/codesigningaccounts/{} 2024-09-30-preview -->
+
+#### examples
+
+- Update sku
+    ```bash
+        trustedsigning update -n MyAccount -g MyResourceGroup --sku Premium
+    ```
 - Update tags
     ```bash
         trustedsigning update -n MyAccount -g MyResourceGroup --tags "key1=value1 key2=value2"
