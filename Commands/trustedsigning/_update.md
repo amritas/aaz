@@ -29,8 +29,5 @@ Update a trusted Signing Account.
 - Update sku
     ```bash
         trustedsigning update -n MyAccount -g MyResourceGroup --sku Premium
-    ```
-- Update tags
-    ```bash
         trustedsigning update -n MyAccount -g MyResourceGroup --tags "key1=value1 key2=value2"
     ```
